@@ -24,6 +24,10 @@ function App() {
     {path:'login',element:<Login/>},
     {path:'register',element:<Register/>},
     {path:'*',element:<NotFound/>},
+    { path: 'moviesdetails/:id', element: <MoviesDetails/> },
+    { path: 'tvshowsdetails/:id', element: <TvShowsDetails/> },
+    { path: 'peopledetails/:id', element: <PeopleDetails/> },
+    { path: 'search', element: <Search/> },
   ]
 
    }]);
